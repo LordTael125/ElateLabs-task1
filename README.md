@@ -14,7 +14,7 @@ The below pictures depict how the wireshark performs the data transfer tracking 
 
 
 Wireshark network analysis and packet tracking
-![image](https://github.com/LordTael125/ElateLabs-task1/Data/Screemshot_packet_details.png)
+<img src="https://github.com/LordTael125/ElateLabs-task1/Data/Screemshot_packet_details.png")
 
 
 Wireshark detailed analysis of single packet from transaction
