@@ -1,0 +1,1633 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    2a07:b944::2:2        2603:1026:207:163::2  TCP      1420   60862 → 443 [ACK] Seq=1 Ack=1 Win=510 Len=1348 TSval=523555212 TSecr=1101200418
+
+Frame 1: 1420 bytes on wire (11360 bits), 1420 bytes captured (11360 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:207:163::2
+Transmission Control Protocol, Src Port: 60862, Dst Port: 443, Seq: 1, Ack: 1, Len: 1348
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.467086564    2603:1026:207:163::2  2a07:b944::2:2        TCP      72     [TCP ACKed unseen segment] 443 → 60862 [ACK] Seq=1 Ack=1827 Win=262 Len=0 TSval=1101244786 TSecr=523555212
+
+Frame 2: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:207:163::2, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 60862, Seq: 1, Ack: 1827, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.467086751    2603:1026:207:163::2  2a07:b944::2:2        TLSv1.3  171    Hello Retry Request, Change Cipher Spec
+
+Frame 3: 171 bytes on wire (1368 bits), 171 bytes captured (1368 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:207:163::2, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 60862, Seq: 1, Ack: 1827, Len: 99
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.467112324    2a07:b944::2:2        2603:1026:207:163::2  TCP      72     [TCP Previous segment not captured] 60862 → 443 [FIN, ACK] Seq=1827 Ack=1 Win=510 Len=0 TSval=523555679 TSecr=1101244786
+
+Frame 4: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:207:163::2
+Transmission Control Protocol, Src Port: 60862, Dst Port: 443, Seq: 1827, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.467123757    2a07:b944::2:2        2603:1026:207:163::2  TCP      60     60862 → 443 [RST] Seq=1827 Win=0 Len=0
+
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:207:163::2
+Transmission Control Protocol, Src Port: 60862, Dst Port: 443, Seq: 1827, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 2.412501056    185.159.159.143       10.2.0.2              TCP      64     443 → 52148 [RST, ACK] Seq=1 Ack=1 Win=255 Len=0 TSval=3146826717 TSecr=2966119891 SLE=1349 SRE=1796
+
+Frame 6: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 52148, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 3.026857791    185.159.159.143       10.2.0.2              TLSv1.2  115    Application Data, Application Data
+
+Frame 7: 115 bytes on wire (920 bits), 115 bytes captured (920 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 50430, Seq: 1, Ack: 1, Len: 63
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 3.026876537    10.2.0.2              185.159.159.143       TCP      52     50430 → 443 [ACK] Seq=1 Ack=64 Win=419 Len=0 TSval=2966227308 TSecr=3146827516
+
+Frame 8: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 50430, Dst Port: 443, Seq: 1, Ack: 64, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 3.026881662    185.159.159.143       10.2.0.2              TCP      52     443 → 50430 [FIN, ACK] Seq=64 Ack=1 Win=268 Len=0 TSval=3146827516 TSecr=2966217239
+
+Frame 9: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 50430, Seq: 64, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 3.027301980    10.2.0.2              185.159.159.143       TCP      52     50430 → 443 [FIN, ACK] Seq=1 Ack=65 Win=419 Len=0 TSval=2966227308 TSecr=3146827516
+
+Frame 10: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 50430, Dst Port: 443, Seq: 1, Ack: 65, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 3.334633199    185.159.159.143       10.2.0.2              TCP      52     443 → 50430 [ACK] Seq=65 Ack=2 Win=268 Len=0 TSval=3146827926 TSecr=2966227308
+
+Frame 11: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 50430, Seq: 65, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 3.334657372    2603:1020:206:d::1    2a07:b944::2:2        TCP      84     443 → 41504 [RST, ACK] Seq=1 Ack=1 Win=252 Len=0 TSval=697905266 TSecr=2376159272 SLE=1349 SRE=1706
+
+Frame 12: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 41504, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 5.632026893    2a07:b944::2:2        2603:1026:c03:7068::2 TCP      1420   57462 → 443 [ACK] Seq=1 Ack=1 Win=510 Len=1348 TSval=3463850817 TSecr=3421904890
+
+Frame 13: 1420 bytes on wire (11360 bits), 1420 bytes captured (11360 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:c03:7068::2
+Transmission Control Protocol, Src Port: 57462, Dst Port: 443, Seq: 1, Ack: 1, Len: 1348
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 5.910044035    2603:1026:c03:7068::2 2a07:b944::2:2        TCP      72     [TCP ACKed unseen segment] 443 → 57462 [ACK] Seq=1 Ack=1731 Win=262 Len=0 TSval=3421954027 TSecr=3463850817
+
+Frame 14: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:c03:7068::2, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57462, Seq: 1, Ack: 1731, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 5.910070493    2a07:b944::2:2        2603:1026:c03:7068::2 TCP      72     [TCP Previous segment not captured] 57462 → 443 [FIN, ACK] Seq=1731 Ack=1 Win=510 Len=0 TSval=3463851095 TSecr=3421954027
+
+Frame 15: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:c03:7068::2
+Transmission Control Protocol, Src Port: 57462, Dst Port: 443, Seq: 1731, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 5.910077341    2603:1026:c03:7068::2 2a07:b944::2:2        TLSv1.3  171    Hello Retry Request, Change Cipher Spec
+
+Frame 16: 171 bytes on wire (1368 bits), 171 bytes captured (1368 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:c03:7068::2, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57462, Seq: 1, Ack: 1731, Len: 99
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 5.910084991    2a07:b944::2:2        2603:1026:c03:7068::2 TCP      60     57462 → 443 [RST] Seq=1731 Win=0 Len=0
+
+Frame 17: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:c03:7068::2
+Transmission Control Protocol, Src Port: 57462, Dst Port: 443, Seq: 1731, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 6.656018765    10.2.0.2              172.188.215.153       TCP      52     46752 → 443 [ACK] Seq=1 Ack=1 Win=459 Len=0 TSval=1326526304 TSecr=1478516934
+
+Frame 18: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 172.188.215.153
+Transmission Control Protocol, Src Port: 46752, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 6.918601588    172.188.215.153       10.2.0.2              TCP      52     [TCP ACKed unseen segment] 443 → 46752 [ACK] Seq=1 Ack=2 Win=268 Len=0 TSval=1478562745 TSecr=1326480794
+
+Frame 19: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 172.188.215.153, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 46752, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 7.788652401    10.2.0.2              185.159.159.143       TLSv1.2  144    Application Data
+
+Frame 20: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 55110, Dst Port: 443, Seq: 1, Ack: 1, Len: 92
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 7.788752874    10.2.0.2              185.159.159.143       TLSv1.2  769    Application Data
+
+Frame 21: 769 bytes on wire (6152 bits), 769 bytes captured (6152 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 55110, Dst Port: 443, Seq: 93, Ack: 1, Len: 717
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 7.795996751    2409:40d4:11ed:2be7:da11:b4d2:60f3:5236 64:ff9b::acbc:d799    TCP      60     37526 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 22: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2409:40d4:11ed:2be7:da11:b4d2:60f3:5236, Dst: 64:ff9b::acbc:d799
+Transmission Control Protocol, Src Port: 37526, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 7.796130460    185.159.159.143       10.2.0.2              TLSv1.2  76     Application Data
+
+Frame 23: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 55110, Seq: 1, Ack: 1, Len: 24
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 7.796137012    10.2.0.2              185.159.159.143       TCP      52     55110 → 443 [ACK] Seq=810 Ack=25 Win=471 Len=0 TSval=2966232077 TSecr=3146832431
+
+Frame 24: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 55110, Dst Port: 443, Seq: 810, Ack: 25, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 7.796148455    185.159.159.143       10.2.0.2              TCP      52     443 → 55110 [FIN, ACK] Seq=25 Ack=1 Win=268 Len=0 TSval=3146832431 TSecr=2966202056
+
+Frame 25: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 55110, Seq: 25, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 7.796327646    10.2.0.2              185.159.159.143       TCP      60     57338 → 443 [SYN] Seq=0 Win=64860 Len=0 MSS=1380 SACK_PERM TSval=2966232077 TSecr=0 WS=128
+
+Frame 26: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 7.796351059    10.2.0.2              185.159.159.143       TCP      52     55110 → 443 [FIN, ACK] Seq=810 Ack=26 Win=471 Len=0 TSval=2966232077 TSecr=3146832431
+
+Frame 27: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 55110, Dst Port: 443, Seq: 810, Ack: 26, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 8.044651049    185.159.159.143       10.2.0.2              TCP      52     443 → 55110 [RST, ACK] Seq=26 Ack=810 Win=268 Len=0 TSval=3146832695 TSecr=2966232069
+
+Frame 28: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 55110, Seq: 26, Ack: 810, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 8.044651257    185.159.159.143       10.2.0.2              TCP      60     443 → 57338 [SYN, ACK] Seq=0 Ack=1 Win=65084 Len=0 MSS=1240 SACK_PERM TSval=3146832699 TSecr=2966232077 WS=256
+
+Frame 29: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 8.044690018    10.2.0.2              185.159.159.143       TCP      52     57338 → 443 [ACK] Seq=1 Ack=1 Win=64896 Len=0 TSval=2966232325 TSecr=3146832699
+
+Frame 30: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 8.045290748    10.2.0.2              185.159.159.143       TLSv1.3  2150   Client Hello (SNI=account.protonvpn.com)
+
+Frame 31: 2150 bytes on wire (17200 bits), 2150 bytes captured (17200 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 1, Ack: 1, Len: 2098
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 8.352284503    2409:40d4:11ed:2be7:da11:b4d2:60f3:5236 64:ff9b::acbc:d799    TCP      60     37526 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 32: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2409:40d4:11ed:2be7:da11:b4d2:60f3:5236, Dst: 64:ff9b::acbc:d799
+Transmission Control Protocol, Src Port: 37526, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 8.352457318    185.159.159.143       10.2.0.2              TCP      52     443 → 57338 [ACK] Seq=1 Ack=1229 Win=66816 Len=0 TSval=3146832948 TSecr=2966232326
+
+Frame 33: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 1, Ack: 1229, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 8.352457451    185.159.159.143       10.2.0.2              TCP      52     443 → 57338 [ACK] Seq=1 Ack=2099 Win=68608 Len=0 TSval=3146832962 TSecr=2966232326
+
+Frame 34: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 1, Ack: 2099, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 8.352486625    185.159.159.143       10.2.0.2              TLSv1.3  306    Server Hello, Change Cipher Spec, Application Data, Application Data
+
+Frame 35: 306 bytes on wire (2448 bits), 306 bytes captured (2448 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 1, Ack: 2099, Len: 254
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 8.352496433    10.2.0.2              185.159.159.143       TCP      52     57338 → 443 [ACK] Seq=2099 Ack=255 Win=64768 Len=0 TSval=2966232633 TSecr=3146832974
+
+Frame 36: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 2099, Ack: 255, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 8.352712626    10.2.0.2              185.159.159.143       TLSv1.3  132    Change Cipher Spec, Application Data
+
+Frame 37: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 2099, Ack: 255, Len: 80
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 8.352793576    10.2.0.2              185.159.159.143       TLSv1.3  144    Application Data
+
+Frame 38: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 2179, Ack: 255, Len: 92
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 8.353576705    10.2.0.2              185.159.159.143       TLSv1.3  769    Application Data
+
+Frame 39: 769 bytes on wire (6152 bits), 769 bytes captured (6152 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 2271, Ack: 255, Len: 717
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 8.581436745    185.159.159.143       10.2.0.2              TCP      52     443 → 57338 [ACK] Seq=255 Ack=2271 Win=68608 Len=0 TSval=3146833250 TSecr=2966232633
+
+Frame 40: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 255, Ack: 2271, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 8.648048668    185.159.159.143       10.2.0.2              TCP      52     443 → 57338 [ACK] Seq=255 Ack=2988 Win=68608 Len=0 TSval=3146833303 TSecr=2966232634
+
+Frame 41: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 255, Ack: 2988, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 8.648048892    185.159.159.143       10.2.0.2              TLSv1.3  116    Application Data
+
+Frame 42: 116 bytes on wire (928 bits), 116 bytes captured (928 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 255, Ack: 2988, Len: 64
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 8.648305070    10.2.0.2              185.159.159.143       TLSv1.3  83     Application Data
+
+Frame 43: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 2988, Ack: 319, Len: 31
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 8.650589267    185.159.159.143       10.2.0.2              TCP      1280   443 → 57338 [ACK] Seq=319 Ack=2988 Win=68608 Len=1228 TSval=3146833353 TSecr=2966232634 [TCP PDU reassembled in 47]
+
+Frame 44: 1280 bytes on wire (10240 bits), 1280 bytes captured (10240 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 319, Ack: 2988, Len: 1228
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 8.691029480    10.2.0.2              185.159.159.143       TCP      52     57338 → 443 [ACK] Seq=3019 Ack=1547 Win=63616 Len=0 TSval=2966232972 TSecr=3146833353
+
+Frame 45: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 3019, Ack: 1547, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 8.798521799    2409:40d4:11ed:2be7:da11:b4d2:60f3:5236 64:ff9b::acbc:d799    TCP      60     37526 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 46: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2409:40d4:11ed:2be7:da11:b4d2:60f3:5236, Dst: 64:ff9b::acbc:d799
+Transmission Control Protocol, Src Port: 37526, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 8.851492782    185.159.159.143       10.2.0.2              TLSv1.3  364    Application Data
+
+Frame 47: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 1547, Ack: 3019, Len: 312
+[2 Reassembled TCP Segments (1540 bytes): #44(1228), #47(312)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 8.851511812    10.2.0.2              185.159.159.143       TCP      52     57338 → 443 [ACK] Seq=3019 Ack=1859 Win=63360 Len=0 TSval=2966233132 TSecr=3146833553
+
+Frame 48: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 3019, Ack: 1859, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 10.092472530   2409:40d4:11ed:2be7:da11:b4d2:60f3:5236 64:ff9b::acbc:d799    TCP      60     37526 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 49: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2409:40d4:11ed:2be7:da11:b4d2:60f3:5236, Dst: 64:ff9b::acbc:d799
+Transmission Control Protocol, Src Port: 37526, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 12.159999455   10.2.0.2              172.211.123.250       TCP      52     51310 → 443 [ACK] Seq=1 Ack=1 Win=457 Len=0 TSval=150936404 TSecr=2302899660
+
+Frame 50: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 172.211.123.250
+Transmission Control Protocol, Src Port: 51310, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 12.249977499   2409:40d4:11ed:2be7:da11:b4d2:60f3:5236 64:ff9b::acbc:d799    TCP      60     37526 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 51: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2409:40d4:11ed:2be7:da11:b4d2:60f3:5236, Dst: 64:ff9b::acbc:d799
+Transmission Control Protocol, Src Port: 37526, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 12.549876360   172.211.123.250       10.2.0.2              TCP      52     [TCP ACKed unseen segment] 443 → 51310 [ACK] Seq=1 Ack=2 Win=268 Len=0 TSval=2302945073 TSecr=150891432
+
+Frame 52: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 172.211.123.250, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 51310, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 14.335882911   2a07:b944::2:2        2603:1020:206:d::1    TCP      1420   53852 → 443 [ACK] Seq=1 Ack=1 Win=510 Len=1348 TSval=2376301554 TSecr=697865093
+
+Frame 53: 1420 bytes on wire (11360 bits), 1420 bytes captured (11360 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 53852, Dst Port: 443, Seq: 1, Ack: 1, Len: 1348
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 14.809704932   2603:1020:206:d::1    2a07:b944::2:2        TCP      72     [TCP ACKed unseen segment] 443 → 53852 [ACK] Seq=1 Ack=1706 Win=262 Len=0 TSval=697916558 TSecr=2376301554
+
+Frame 54: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 53852, Seq: 1, Ack: 1706, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 14.809705131   2603:1020:206:d::1    2a07:b944::2:2        TCP      72     443 → 53852 [RST, ACK] Seq=1 Ack=1706 Win=262 Len=0 TSval=697916561 TSecr=2376301554
+
+Frame 55: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 53852, Seq: 1, Ack: 1706, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 14.809705153   2603:1020:206:d::1    2a07:b944::2:2        TCP      84     443 → 49750 [RST, ACK] Seq=1 Ack=1 Win=252 Len=0 TSval=697916626 TSecr=2376170673 SLE=1349 SRE=1738
+
+Frame 56: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 49750, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 14.809730262   2a07:b944::2:2        2603:1020:206:d::1    TCP      72     [TCP Previous segment not captured] 53852 → 443 [FIN, ACK] Seq=1706 Ack=1 Win=510 Len=0 TSval=2376302027 TSecr=697916558
+
+Frame 57: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 53852, Dst Port: 443, Seq: 1706, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 14.847807365   2a07:b944::2:2        2603:1026:c03:6025::2 TCP      1420   56214 → 443 [ACK] Seq=1 Ack=1 Win=510 Len=1348 TSval=3179401359 TSecr=957375868
+
+Frame 58: 1420 bytes on wire (11360 bits), 1420 bytes captured (11360 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:c03:6025::2
+Transmission Control Protocol, Src Port: 56214, Dst Port: 443, Seq: 1, Ack: 1, Len: 1348
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 14.850836050   10.2.0.2              20.189.173.11         TCP      52     53122 → 443 [ACK] Seq=1 Ack=1 Win=456 Len=0 TSval=438174713 TSecr=3572302875
+
+Frame 59: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 20.189.173.11
+Transmission Control Protocol, Src Port: 53122, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 15.073505710   20.189.173.11         10.2.0.2              TCP      52     [TCP ACKed unseen segment] 443 → 53122 [ACK] Seq=1 Ack=2 Win=268 Len=0 TSval=3572348104 TSecr=438129752
+
+Frame 60: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 20.189.173.11, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 53122, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 15.097328523   2603:1026:c03:6025::2 2a07:b944::2:2        TCP      72     [TCP ACKed unseen segment] 443 → 56214 [ACK] Seq=1 Ack=2278 Win=262 Len=0 TSval=957456706 TSecr=3179401359
+
+Frame 61: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:c03:6025::2, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 56214, Seq: 1, Ack: 2278, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 15.097360931   2a07:b944::2:2        2603:1026:c03:6025::2 TCP      72     [TCP Previous segment not captured] 56214 → 443 [FIN, ACK] Seq=2278 Ack=1 Win=510 Len=0 TSval=3179401608 TSecr=957456706
+
+Frame 62: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:c03:6025::2
+Transmission Control Protocol, Src Port: 56214, Dst Port: 443, Seq: 2278, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 15.097369940   2603:1026:c03:6025::2 2a07:b944::2:2        TLSv1.3  171    Hello Retry Request, Change Cipher Spec
+
+Frame 63: 171 bytes on wire (1368 bits), 171 bytes captured (1368 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:c03:6025::2, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 56214, Seq: 1, Ack: 2278, Len: 99
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 15.097379214   2a07:b944::2:2        2603:1026:c03:6025::2 TCP      60     56214 → 443 [RST] Seq=2278 Win=0 Len=0
+
+Frame 64: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:c03:6025::2
+Transmission Control Protocol, Src Port: 56214, Dst Port: 443, Seq: 2278, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 15.159801358   10.2.0.2              20.189.173.11         TCP      52     53130 → 443 [ACK] Seq=1 Ack=1 Win=458 Len=0 TSval=438175022 TSecr=3572303127
+
+Frame 65: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 20.189.173.11
+Transmission Control Protocol, Src Port: 53130, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 15.420989032   20.189.173.11         10.2.0.2              TCP      52     [TCP ACKed unseen segment] 443 → 53130 [ACK] Seq=1 Ack=2 Win=268 Len=0 TSval=3572348362 TSecr=438130021
+
+Frame 66: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 20.189.173.11, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 53130, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 16.236390499   2409:40d4:11ed:2be7:da11:b4d2:60f3:5236 64:ff9b::acbc:d799    TCP      60     37526 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 67: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2409:40d4:11ed:2be7:da11:b4d2:60f3:5236, Dst: 64:ff9b::acbc:d799
+Transmission Control Protocol, Src Port: 37526, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 18.316209864   2409:40d4:11ed:2be7:da11:b4d2:60f3:5236 64:ff9b::acbc:d799    TCP      60     37526 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 68: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2409:40d4:11ed:2be7:da11:b4d2:60f3:5236, Dst: 64:ff9b::acbc:d799
+Transmission Control Protocol, Src Port: 37526, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 18.694542644   185.159.159.143       10.2.0.2              TLSv1.3  115    Application Data, Application Data
+
+Frame 69: 115 bytes on wire (920 bits), 115 bytes captured (920 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 1859, Ack: 3019, Len: 63
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 18.694542835   185.159.159.143       10.2.0.2              TCP      52     443 → 57338 [FIN, ACK] Seq=1922 Ack=3019 Win=68608 Len=0 TSval=3146843355 TSecr=2966233132
+
+Frame 70: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 1922, Ack: 3019, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 18.694563347   10.2.0.2              185.159.159.143       TCP      52     57338 → 443 [ACK] Seq=3019 Ack=1922 Win=63360 Len=0 TSval=2966242975 TSecr=3146843355
+
+Frame 71: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 3019, Ack: 1922, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 18.694756301   10.2.0.2              185.159.159.143       TCP      52     57338 → 443 [FIN, ACK] Seq=3019 Ack=1923 Win=63360 Len=0 TSval=2966242975 TSecr=3146843355
+
+Frame 72: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57338, Dst Port: 443, Seq: 3019, Ack: 1923, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 19.002500087   185.159.159.143       10.2.0.2              TCP      52     443 → 57338 [ACK] Seq=1923 Ack=3020 Win=68608 Len=0 TSval=3146843587 TSecr=2966242975
+
+Frame 73: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57338, Seq: 1923, Ack: 3020, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 23.200402730   185.159.159.143       10.2.0.2              TLSv1.2  76     Application Data
+
+Frame 74: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 50442, Seq: 1, Ack: 1, Len: 24
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 23.200420067   10.2.0.2              185.159.159.143       TCP      52     50442 → 443 [ACK] Seq=1 Ack=25 Win=469 Len=0 TSval=2966247481 TSecr=3146847504
+
+Frame 75: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 50442, Dst Port: 443, Seq: 1, Ack: 25, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 23.200423190   185.159.159.143       10.2.0.2              TCP      52     443 → 50442 [FIN, ACK] Seq=25 Ack=1 Win=268 Len=0 TSval=3146847504 TSecr=2966217158
+
+Frame 76: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 50442, Seq: 25, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 23.240808155   10.2.0.2              185.159.159.143       TCP      52     50442 → 443 [ACK] Seq=1 Ack=26 Win=469 Len=0 TSval=2966247522 TSecr=3146847504
+
+Frame 77: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 50442, Dst Port: 443, Seq: 1, Ack: 26, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 23.344719089   185.159.159.143       10.2.0.2              TCP      52     [TCP Retransmission] 443 → 50442 [FIN, ACK] Seq=25 Ack=1 Win=268 Len=0 TSval=3146848039 TSecr=2966217158
+
+Frame 78: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 50442, Seq: 25, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 23.344731881   10.2.0.2              185.159.159.143       TCP      64     [TCP Dup ACK 77#1] 50442 → 443 [ACK] Seq=1 Ack=26 Win=469 Len=0 TSval=2966247625 TSecr=3146848039 SLE=25 SRE=26
+
+Frame 79: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 50442, Dst Port: 443, Seq: 1, Ack: 26, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 24.547792373   2409:40d4:11ed:2be7:da11:b4d2:60f3:5236 64:ff9b::acbc:d799    TCP      60     37526 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 80: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2409:40d4:11ed:2be7:da11:b4d2:60f3:5236, Dst: 64:ff9b::acbc:d799
+Transmission Control Protocol, Src Port: 37526, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 24.567996401   2a07:b944::2:2        2a07:b944::2:1        DNS      87     Standard query 0x9638 A google.com OPT
+
+Frame 81: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a07:b944::2:1
+User Datagram Protocol, Src Port: 53529, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 24.568014417   2a07:b944::2:2        2a07:b944::2:1        DNS      87     Standard query 0x4c15 AAAA google.com OPT
+
+Frame 82: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a07:b944::2:1
+User Datagram Protocol, Src Port: 54848, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 24.844060390   2a07:b944::2:1        2a07:b944::2:2        DNS      199    Standard query response 0x4c15 AAAA google.com AAAA 2a00:1450:4013:c06::8b AAAA 2a00:1450:4013:c06::64 AAAA 2a00:1450:4013:c06::66 AAAA 2a00:1450:4013:c06::71 OPT
+
+Frame 83: 199 bytes on wire (1592 bits), 199 bytes captured (1592 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:1, Dst: 2a07:b944::2:2
+User Datagram Protocol, Src Port: 53, Dst Port: 54848
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 24.844060619   2a07:b944::2:1        2a07:b944::2:2        DNS      103    Standard query response 0x9638 A google.com A 142.251.36.142 OPT
+
+Frame 84: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:1, Dst: 2a07:b944::2:2
+User Datagram Protocol, Src Port: 53, Dst Port: 53529
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 24.844658770   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=1, hop limit=64 (reply in 86)
+
+Frame 85: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 25.145740378   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=1, hop limit=113 (request in 85)
+
+Frame 86: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 25.146218836   2a07:b944::2:2        2a07:b944::2:1        DNS      149    Standard query 0xa0a8 PTR b.8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.6.0.c.0.3.1.0.4.0.5.4.1.0.0.a.2.ip6.arpa OPT
+
+Frame 87: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a07:b944::2:1
+User Datagram Protocol, Src Port: 53190, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 25.657946285   2a07:b944::2:1        2a07:b944::2:2        DNS      207    Standard query response 0xa0a8 PTR b.8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.6.0.c.0.3.1.0.4.0.5.4.1.0.0.a.2.ip6.arpa PTR eh-in-f139.1e100.net PTR eh-in-x8b.1e100.net OPT
+
+Frame 88: 207 bytes on wire (1656 bits), 207 bytes captured (1656 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:1, Dst: 2a07:b944::2:2
+User Datagram Protocol, Src Port: 53, Dst Port: 53190
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 25.844605528   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=2, hop limit=64 (reply in 90)
+
+Frame 89: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 26.169719990   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=2, hop limit=113 (request in 89)
+
+Frame 90: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 26.845711304   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=3, hop limit=64 (no response found!)
+
+Frame 91: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 27.904031553   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=4, hop limit=64 (no response found!)
+
+Frame 92: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 28.012513465   2603:1020:206:d::1    2a07:b944::2:2        TCP      84     443 → 47628 [RST, ACK] Seq=1 Ack=1 Win=252 Len=0 TSval=697929557 TSecr=2376183545 SLE=1349 SRE=1802
+
+Frame 93: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 47628, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 28.928118181   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=5, hop limit=64 (reply in 95)
+
+Frame 94: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 29.343993792   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=5, hop limit=113 (request in 94)
+
+Frame 95: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 29.928960601   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=6, hop limit=64 (reply in 97)
+
+Frame 96: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 30.367417394   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=6, hop limit=113 (request in 96)
+
+Frame 97: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 30.930344985   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=7, hop limit=64 (reply in 99)
+
+Frame 98: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 31.188503203   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=7, hop limit=113 (request in 98)
+
+Frame 99: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 31.231988263   2a07:b944::2:2        2603:1026:c03:6025::2 TCP      1420   56212 → 443 [ACK] Seq=1 Ack=1 Win=510 Len=1348 TSval=3179417743 TSecr=957375693
+
+Frame 100: 1420 bytes on wire (11360 bits), 1420 bytes captured (11360 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:c03:6025::2
+Transmission Control Protocol, Src Port: 56212, Dst Port: 443, Seq: 1, Ack: 1, Len: 1348
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 31.442880714   2603:1026:c03:6025::2 2a07:b944::2:2        TCP      72     [TCP ACKed unseen segment] 443 → 56212 [ACK] Seq=1 Ack=1763 Win=262 Len=0 TSval=957473055 TSecr=3179417743
+
+Frame 101: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:c03:6025::2, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 56212, Seq: 1, Ack: 1763, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 31.442880919   2603:1026:c03:6025::2 2a07:b944::2:2        TLSv1.3  171    Hello Retry Request, Change Cipher Spec
+
+Frame 102: 171 bytes on wire (1368 bits), 171 bytes captured (1368 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:c03:6025::2, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 56212, Seq: 1, Ack: 1763, Len: 99
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 31.442913032   2a07:b944::2:2        2603:1026:c03:6025::2 TCP      72     [TCP Previous segment not captured] 56212 → 443 [FIN, ACK] Seq=1763 Ack=1 Win=510 Len=0 TSval=3179417954 TSecr=957473055
+
+Frame 103: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:c03:6025::2
+Transmission Control Protocol, Src Port: 56212, Dst Port: 443, Seq: 1763, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 31.442930817   2a07:b944::2:2        2603:1026:c03:6025::2 TCP      60     56212 → 443 [RST] Seq=1763 Win=0 Len=0
+
+Frame 104: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:c03:6025::2
+Transmission Control Protocol, Src Port: 56212, Dst Port: 443, Seq: 1763, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 31.931558522   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=8, hop limit=64 (reply in 106)
+
+Frame 105: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 32.211286384   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=8, hop limit=113 (request in 105)
+
+Frame 106: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 32.933334539   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=9, hop limit=64 (reply in 108)
+
+Frame 107: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 33.248530464   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=9, hop limit=113 (request in 107)
+
+Frame 108: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 33.934550764   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=10, hop limit=64 (reply in 110)
+
+Frame 109: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 34.259115233   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=10, hop limit=113 (request in 109)
+
+Frame 110: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 34.936138768   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=11, hop limit=64 (no response found!)
+
+Frame 111: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 35.327993370   2a07:b944::2:2        2a02:26f0:b200::1748:fca0 TCP      1420   43344 → 443 [ACK] Seq=1 Ack=1 Win=510 Len=1348 TSval=3681370218 TSecr=3225638074
+
+Frame 112: 1420 bytes on wire (11360 bits), 1420 bytes captured (11360 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a02:26f0:b200::1748:fca0
+Transmission Control Protocol, Src Port: 43344, Dst Port: 443, Seq: 1, Ack: 1, Len: 1348
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 35.590221473   2a02:26f0:b200::1748:fca0 2a07:b944::2:2        TCP      72     [TCP ACKed unseen segment] 443 → 43344 [ACK] Seq=1 Ack=1769 Win=262 Len=0 TSval=3225696712 TSecr=3681370218
+
+Frame 113: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a02:26f0:b200::1748:fca0, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 43344, Seq: 1, Ack: 1769, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 35.590221575   2a02:26f0:b200::1748:fca0 2a07:b944::2:2        TCP      72     443 → 43344 [RST, ACK] Seq=1 Ack=1769 Win=262 Len=0 TSval=3225696714 TSecr=3681370218
+
+Frame 114: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a02:26f0:b200::1748:fca0, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 43344, Seq: 1, Ack: 1769, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 35.590252008   2a07:b944::2:2        2a02:26f0:b200::1748:fca0 TCP      72     [TCP Previous segment not captured] 43344 → 443 [FIN, ACK] Seq=1769 Ack=1 Win=510 Len=0 TSval=3681370480 TSecr=3225696712
+
+Frame 115: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a02:26f0:b200::1748:fca0
+Transmission Control Protocol, Src Port: 43344, Dst Port: 443, Seq: 1769, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 35.968062655   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=12, hop limit=64 (reply in 117)
+
+Frame 116: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 36.191399958   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=12, hop limit=113 (request in 116)
+
+Frame 117: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 36.969556611   2a07:b944::2:2        2a00:1450:4013:c06::8b ICMPv6   104    Echo (ping) request id=0x0002, seq=13, hop limit=64 (reply in 119)
+
+Frame 118: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a00:1450:4013:c06::8b
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 37.968150476   2a00:1450:4013:c06::8b 2a07:b944::2:2        ICMPv6   104    Echo (ping) reply id=0x0002, seq=13, hop limit=113 (request in 118)
+
+Frame 119: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a00:1450:4013:c06::8b, Dst: 2a07:b944::2:2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 38.855899055   10.2.0.2              185.159.159.143       TCP      52     50442 → 443 [FIN, ACK] Seq=1 Ack=26 Win=469 Len=0 TSval=2966263137 TSecr=3146848039
+
+Frame 120: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 50442, Dst Port: 443, Seq: 1, Ack: 26, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 38.855952396   10.2.0.2              185.159.159.143       TCP      60     57262 → 443 [SYN] Seq=0 Win=64860 Len=0 MSS=1380 SACK_PERM TSval=2966263137 TSecr=0 WS=128
+
+Frame 121: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 39.094079149   185.159.159.143       10.2.0.2              TCP      52     443 → 50442 [ACK] Seq=26 Ack=2 Win=268 Len=0 TSval=3146863795 TSecr=2966263137
+
+Frame 122: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 50442, Seq: 26, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 39.094079304   185.159.159.143       10.2.0.2              TCP      60     443 → 57262 [SYN, ACK] Seq=0 Ack=1 Win=65084 Len=0 MSS=1240 SACK_PERM TSval=3146863795 TSecr=2966263137 WS=256
+
+Frame 123: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 39.094118979   10.2.0.2              185.159.159.143       TCP      52     57262 → 443 [ACK] Seq=1 Ack=1 Win=64896 Len=0 TSval=2966263375 TSecr=3146863795
+
+Frame 124: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 39.094558424   10.2.0.2              185.159.159.143       TLSv1.3  2118   Client Hello (SNI=account.protonvpn.com)
+
+Frame 125: 2118 bytes on wire (16944 bits), 2118 bytes captured (16944 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 1, Ack: 1, Len: 2066
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 39.379144636   185.159.159.143       10.2.0.2              TCP      52     443 → 57262 [ACK] Seq=1 Ack=1229 Win=66816 Len=0 TSval=3146863997 TSecr=2966263375
+
+Frame 126: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 1, Ack: 1229, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 39.379144789   185.159.159.143       10.2.0.2              TCP      52     443 → 57262 [ACK] Seq=1 Ack=2067 Win=67328 Len=0 TSval=3146864004 TSecr=2966263375
+
+Frame 127: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 1, Ack: 2067, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 39.379158860   185.159.159.143       10.2.0.2              TLSv1.3  306    Server Hello, Change Cipher Spec, Application Data, Application Data
+
+Frame 128: 306 bytes on wire (2448 bits), 306 bytes captured (2448 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 1, Ack: 2067, Len: 254
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 39.379167836   10.2.0.2              185.159.159.143       TCP      52     57262 → 443 [ACK] Seq=2067 Ack=255 Win=64768 Len=0 TSval=2966263660 TSecr=3146864030
+
+Frame 129: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 2067, Ack: 255, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 39.379399945   10.2.0.2              185.159.159.143       TLSv1.3  132    Change Cipher Spec, Application Data
+
+Frame 130: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 2067, Ack: 255, Len: 80
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 39.379481910   10.2.0.2              185.159.159.143       TLSv1.3  144    Application Data
+
+Frame 131: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 2147, Ack: 255, Len: 92
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 39.380364613   10.2.0.2              185.159.159.143       TLSv1.3  769    Application Data
+
+Frame 132: 769 bytes on wire (6152 bits), 769 bytes captured (6152 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 2239, Ack: 255, Len: 717
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 39.887812165   10.2.0.2              185.159.159.143       TCP      769    [TCP Retransmission] 57262 → 443 [PSH, ACK] Seq=2239 Ack=255 Win=64768 Len=717 TSval=2966264169 TSecr=3146864030
+
+Frame 133: 769 bytes on wire (6152 bits), 769 bytes captured (6152 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 2239, Ack: 255, Len: 717
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 39.925403709   185.159.159.143       10.2.0.2              TCP      52     443 → 57262 [ACK] Seq=255 Ack=2239 Win=67328 Len=0 TSval=3146864279 TSecr=2966263660
+
+Frame 134: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 255, Ack: 2239, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 39.925421771   185.159.159.143       10.2.0.2              TCP      52     443 → 57262 [ACK] Seq=255 Ack=2956 Win=68608 Len=0 TSval=3146864339 TSecr=2966263661
+
+Frame 135: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 255, Ack: 2956, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 39.925427287   185.159.159.143       10.2.0.2              TLSv1.3  116    Application Data
+
+Frame 136: 116 bytes on wire (928 bits), 116 bytes captured (928 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 255, Ack: 2956, Len: 64
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 39.925436299   185.159.159.143       10.2.0.2              TCP      1280   443 → 57262 [ACK] Seq=319 Ack=2956 Win=68608 Len=1228 TSval=3146864487 TSecr=2966263661 [TCP PDU reassembled in 141]
+
+Frame 137: 1280 bytes on wire (10240 bits), 1280 bytes captured (10240 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 319, Ack: 2956, Len: 1228
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 39.925545363   10.2.0.2              185.159.159.143       TCP      52     57262 → 443 [ACK] Seq=2956 Ack=1547 Win=63488 Len=0 TSval=2966264206 TSecr=3146864363
+
+Frame 138: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 2956, Ack: 1547, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 39.925610068   10.2.0.2              185.159.159.143       TLSv1.3  83     Application Data
+
+Frame 139: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 2956, Ack: 1547, Len: 31
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 40.198609325   185.159.159.143       10.2.0.2              TCP      64     [TCP Dup ACK 135#1] 443 → 57262 [ACK] Seq=1547 Ack=2956 Win=68608 Len=0 TSval=3146864837 TSecr=2966264169 SLE=2239 SRE=2956
+
+Frame 140: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 1547, Ack: 2956, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 40.198627736   185.159.159.143       10.2.0.2              TLSv1.3  364    Application Data
+
+Frame 141: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 1547, Ack: 2956, Len: 312
+[2 Reassembled TCP Segments (1540 bytes): #137(1228), #141(312)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 40.198635816   185.159.159.143       10.2.0.2              TCP      52     443 → 57262 [ACK] Seq=1859 Ack=2987 Win=68608 Len=0 TSval=3146864841 TSecr=2966264206
+
+Frame 142: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 185.159.159.143, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 57262, Seq: 1859, Ack: 2987, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 40.238821523   10.2.0.2              185.159.159.143       TCP      52     57262 → 443 [ACK] Seq=2987 Ack=1859 Win=63232 Len=0 TSval=2966264520 TSecr=3146864839
+
+Frame 143: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 185.159.159.143
+Transmission Control Protocol, Src Port: 57262, Dst Port: 443, Seq: 2987, Ack: 1859, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 40.512939216   10.2.0.2              54.156.112.211        TCP      52     35038 → 443 [ACK] Seq=1 Ack=1 Win=469 Len=0 TSval=3897093604 TSecr=873246228
+
+Frame 144: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 54.156.112.211
+Transmission Control Protocol, Src Port: 35038, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 40.812470031   54.156.112.211        10.2.0.2              TCP      52     [TCP ACKed unseen segment] 443 → 35038 [ACK] Seq=1 Ack=2 Win=268 Len=0 TSval=873291477 TSecr=3897048586
+
+Frame 145: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 54.156.112.211, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 35038, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 40.864010142   2409:40d4:11ed:2be7:da11:b4d2:60f3:5236 64:ff9b::acbc:d799    TCP      60     37526 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 146: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2409:40d4:11ed:2be7:da11:b4d2:60f3:5236, Dst: 64:ff9b::acbc:d799
+Transmission Control Protocol, Src Port: 37526, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 43.520006846   10.2.0.2              54.156.112.211        TCP      52     35048 → 443 [ACK] Seq=1 Ack=1 Win=474 Len=0 TSval=3897096611 TSecr=873246556
+
+Frame 147: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 54.156.112.211
+Transmission Control Protocol, Src Port: 35048, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 43.781693433   54.156.112.211        10.2.0.2              TCP      52     [TCP ACKed unseen segment] 443 → 35048 [ACK] Seq=1 Ack=2 Win=263 Len=0 TSval=873294536 TSecr=3897048950
+
+Frame 148: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 54.156.112.211, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 35048, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 44.275961491   172.211.123.250       10.2.0.2              TCP      52     443 → 51310 [FIN, ACK] Seq=1 Ack=2 Win=268 Len=0 TSval=2302976717 TSecr=150891432
+
+Frame 149: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 172.211.123.250, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 51310, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 44.276418141   10.2.0.2              172.211.123.250       TCP      52     [TCP Previous segment not captured] 51310 → 443 [FIN, ACK] Seq=2 Ack=2 Win=457 Len=0 TSval=150968520 TSecr=2302976717
+
+Frame 150: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 172.211.123.250
+Transmission Control Protocol, Src Port: 51310, Dst Port: 443, Seq: 2, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 44.498859339   172.211.123.250       10.2.0.2              TCP      52     443 → 51310 [ACK] Seq=2 Ack=3 Win=268 Len=0 TSval=2302977083 TSecr=150968520
+
+Frame 151: 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 172.211.123.250, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 51310, Seq: 2, Ack: 3, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 45.279320748   2a07:b944::2:2        2603:1020:206:d::1    TCP      80     48640 → 443 [SYN] Seq=0 Win=65280 Len=0 MSS=1360 SACK_PERM TSval=2376332497 TSecr=0 WS=128
+
+Frame 152: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 45.579921874   10.2.0.2              172.211.123.250       TCP      60     44458 → 443 [SYN] Seq=0 Win=64860 Len=0 MSS=1380 SACK_PERM TSval=150969824 TSecr=0 WS=128
+
+Frame 153: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 172.211.123.250
+Transmission Control Protocol, Src Port: 44458, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 45.582654920   2603:1020:206:d::1    2a07:b944::2:2        TCP      80     443 → 48640 [SYN, ACK] Seq=0 Ack=1 Win=64260 Len=0 MSS=1360 SACK_PERM TSval=697947471 TSecr=2376332497 WS=256
+
+Frame 154: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 45.582681047   2a07:b944::2:2        2603:1020:206:d::1    TCP      72     48640 → 443 [ACK] Seq=1 Ack=1 Win=65280 Len=0 TSval=2376332800 TSecr=697947471
+
+Frame 155: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 45.582940148   2a07:b944::2:2        2603:1020:206:d::1    TLSv1.2  1809   Client Hello (SNI=client.wns.windows.com)
+
+Frame 156: 1809 bytes on wire (14472 bits), 1809 bytes captured (14472 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 1, Ack: 1, Len: 1737
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 45.826523611   172.211.123.250       10.2.0.2              TCP      60     443 → 44458 [SYN, ACK] Seq=0 Ack=1 Win=65084 Len=0 MSS=1240 SACK_PERM TSval=2302978393 TSecr=150969824 WS=256
+
+Frame 157: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 172.211.123.250, Dst: 10.2.0.2
+Transmission Control Protocol, Src Port: 443, Dst Port: 44458, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    158 45.826538091   10.2.0.2              172.211.123.250       TCP      40     44458 → 443 [RST] Seq=1 Win=0 Len=0
+
+Frame 158: 40 bytes on wire (320 bits), 40 bytes captured (320 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 4, Src: 10.2.0.2, Dst: 172.211.123.250
+Transmission Control Protocol, Src Port: 44458, Dst Port: 443, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    159 45.826546443   2603:1020:206:d::1    2a07:b944::2:2        TCP      84     [TCP Dup ACK 154#1] 443 → 48640 [ACK] Seq=1 Ack=1 Win=64512 Len=0 TSval=697947768 TSecr=2376332800 SLE=1349 SRE=1738
+
+Frame 159: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    160 45.826546460   2603:1020:206:d::1    2a07:b944::2:2        TCP      72     443 → 48640 [ACK] Seq=1 Ack=1738 Win=67072 Len=0 TSval=697947783 TSecr=2376332801
+
+Frame 160: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 1, Ack: 1738, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    161 45.830407362   2603:1020:206:d::1    2a07:b944::2:2        TLSv1.2  520    [TCP Previous segment not captured] , Ignored Unknown Record
+
+Frame 161: 520 bytes on wire (4160 bits), 520 bytes captured (4160 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 5393, Ack: 1738, Len: 448
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    162 45.830420483   2a07:b944::2:2        2603:1020:206:d::1    TCP      84     [TCP Dup ACK 155#1] 48640 → 443 [ACK] Seq=1738 Ack=1 Win=65280 Len=0 TSval=2376333048 TSecr=697947783 SLE=5393 SRE=5841
+
+Frame 162: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 1738, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    163 45.830430676   2603:1020:206:d::1    2a07:b944::2:2        TCP      4116   [TCP Out-Of-Order] 443 → 48640 [ACK] Seq=1349 Ack=1738 Win=67072 Len=4044 TSval=697947787 TSecr=2376332801
+
+Frame 163: 4116 bytes on wire (32928 bits), 4116 bytes captured (32928 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 1349, Ack: 1738, Len: 4044
+
+No.     Time           Source                Destination           Protocol Length Info
+    164 45.830432985   2a07:b944::2:2        2603:1020:206:d::1    TCP      84     [TCP Dup ACK 155#2] 48640 → 443 [ACK] Seq=1738 Ack=1 Win=65280 Len=0 TSval=2376333048 TSecr=697947783 SLE=1349 SRE=5841
+
+Frame 164: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 1738, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    165 46.138175193   2603:1020:206:d::1    2a07:b944::2:2        TCP      1420   [TCP Retransmission] 443 → 48640 [ACK] Seq=1 Ack=1738 Win=67072 Len=1348 TSval=697948089 TSecr=2376333048
+
+Frame 165: 1420 bytes on wire (11360 bits), 1420 bytes captured (11360 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 1, Ack: 1738, Len: 1348
+
+No.     Time           Source                Destination           Protocol Length Info
+    166 46.138199298   2a07:b944::2:2        2603:1020:206:d::1    TCP      72     48640 → 443 [ACK] Seq=1738 Ack=5841 Win=59520 Len=0 TSval=2376333356 TSecr=697948089
+
+Frame 166: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 1738, Ack: 5841, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    167 46.445255604   2603:1020:206:d::1    2a07:b944::2:2        TLSv1.2  185    Ignored Unknown Record
+
+Frame 167: 185 bytes on wire (1480 bits), 185 bytes captured (1480 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 5841, Ack: 1738, Len: 113
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    168 46.445277471   2a07:b944::2:2        2603:1020:206:d::1    TCP      72     48640 → 443 [ACK] Seq=1738 Ack=5954 Win=59520 Len=0 TSval=2376333663 TSecr=697948321
+
+Frame 168: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 1738, Ack: 5954, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    169 46.446353991   2a07:b944::2:2        2603:1020:206:d::1    TLSv1.2  230    Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 169: 230 bytes on wire (1840 bits), 230 bytes captured (1840 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 1738, Ack: 5954, Len: 158
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    170 46.751623673   2603:1020:206:d::1    2a07:b944::2:2        TLSv1.2  123    Change Cipher Spec, Encrypted Handshake Message
+
+Frame 170: 123 bytes on wire (984 bits), 123 bytes captured (984 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 5954, Ack: 1896, Len: 51
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    171 46.752354649   2a07:b944::2:2        2603:1020:206:d::1    TLSv1.2  343    Application Data
+
+Frame 171: 343 bytes on wire (2744 bits), 343 bytes captured (2744 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 1896, Ack: 6005, Len: 271
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    172 46.838668052   2a07:b944::2:2        2a07:b944::2:1        DNS      102    Standard query 0x556c A login.microsoftonline.com OPT
+
+Frame 172: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a07:b944::2:1
+User Datagram Protocol, Src Port: 60652, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    173 46.838701591   2a07:b944::2:2        2a07:b944::2:1        DNS      102    Standard query 0x4e73 AAAA login.microsoftonline.com OPT
+
+Frame 173: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2a07:b944::2:1
+User Datagram Protocol, Src Port: 42920, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    174 46.957387522   2603:1020:206:d::1    2a07:b944::2:2        TLSv1.2  353    Application Data
+
+Frame 174: 353 bytes on wire (2824 bits), 353 bytes captured (2824 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 6005, Ack: 2167, Len: 281
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    175 46.958094332   2a07:b944::2:2        2603:1020:206:d::1    TLSv1.2  225    Application Data
+
+Frame 175: 225 bytes on wire (1800 bits), 225 bytes captured (1800 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 2167, Ack: 6286, Len: 153
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    176 47.059015281   2a07:b944::2:1        2a07:b944::2:2        DNS      336    Standard query response 0x556c A login.microsoftonline.com CNAME login.mso.msidentity.com CNAME ak.privatelink.msidentity.com CNAME www.tm.a.prd.aadg.akadns.net A 40.126.31.2 A 40.126.31.3 A 40.126.31.69 A 40.126.31.131 A 20.190.159.64 A 20.190.159.68 A 20.190.159.129 A 40.126.31.1 OPT
+
+Frame 176: 336 bytes on wire (2688 bits), 336 bytes captured (2688 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:1, Dst: 2a07:b944::2:2
+User Datagram Protocol, Src Port: 53, Dst Port: 60652
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    177 47.059015394   2a07:b944::2:1        2a07:b944::2:2        DNS      432    Standard query response 0x4e73 AAAA login.microsoftonline.com CNAME login.mso.msidentity.com CNAME ak.privatelink.msidentity.com CNAME www.tm.a.prd.aadg.akadns.net AAAA 2603:1026:3000:158::5 AAAA 2603:1027:1:148::4 AAAA 2603:1027:1:150::5 AAAA 2603:1027:1:158::c AAAA 2603:1026:3000:148::6 AAAA 2603:1026:3000:148::7 AAAA 2603:1026:3000:148::10 AAAA 2603:1026:3000:150::a OPT
+
+Frame 177: 432 bytes on wire (3456 bits), 432 bytes captured (3456 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:1, Dst: 2a07:b944::2:2
+User Datagram Protocol, Src Port: 53, Dst Port: 42920
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    178 47.059809900   2a07:b944::2:2        2603:1026:3000:158::5 TCP      80     49806 → 443 [SYN] Seq=0 Win=65280 Len=0 MSS=1360 SACK_PERM TSval=3075692029 TSecr=0 WS=128
+
+Frame 178: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:3000:158::5
+Transmission Control Protocol, Src Port: 49806, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    179 47.167708483   2603:1020:206:d::1    2a07:b944::2:2        TLSv1.2  174    Application Data
+
+Frame 179: 174 bytes on wire (1392 bits), 174 bytes captured (1392 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 6286, Ack: 2320, Len: 102
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    180 47.168299491   2a07:b944::2:2        2603:1020:206:d::1    TLSv1.2  555    Application Data
+
+Frame 180: 555 bytes on wire (4440 bits), 555 bytes captured (4440 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 2320, Ack: 6388, Len: 483
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    181 47.254518419   2603:1026:3000:158::5 2a07:b944::2:2        TCP      80     443 → 49806 [SYN, ACK] Seq=0 Ack=1 Win=64260 Len=0 MSS=1360 SACK_PERM TSval=3285212600 TSecr=3075692029 WS=256
+
+Frame 181: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:3000:158::5, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 49806, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    182 47.254542503   2a07:b944::2:2        2603:1026:3000:158::5 TCP      72     49806 → 443 [ACK] Seq=1 Ack=1 Win=65280 Len=0 TSval=3075692223 TSecr=3285212600
+
+Frame 182: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:3000:158::5
+Transmission Control Protocol, Src Port: 49806, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    183 47.254992476   2a07:b944::2:2        2603:1026:3000:158::5 TLSv1.3  1648   Client Hello (SNI=login.microsoftonline.com)
+
+Frame 183: 1648 bytes on wire (13184 bits), 1648 bytes captured (13184 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:3000:158::5
+Transmission Control Protocol, Src Port: 49806, Dst Port: 443, Seq: 1, Ack: 1, Len: 1576
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    184 47.469214496   2603:1020:206:d::1    2a07:b944::2:2        TCP      72     443 → 48640 [ACK] Seq=6388 Ack=2803 Win=75008 Len=0 TSval=697949389 TSecr=2376334386
+
+Frame 184: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 6388, Ack: 2803, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    185 47.469214718   2603:1026:3000:158::5 2a07:b944::2:2        TCP      84     [TCP Dup ACK 181#1] 443 → 49806 [ACK] Seq=1 Ack=1 Win=64512 Len=0 TSval=3285212793 TSecr=3075692223 SLE=1349 SRE=1577
+
+Frame 185: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:3000:158::5, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 49806, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    186 47.469214734   2603:1026:3000:158::5 2a07:b944::2:2        TCP      72     443 → 49806 [ACK] Seq=1 Ack=1577 Win=67072 Len=0 TSval=3285212808 TSecr=3075692224
+
+Frame 186: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:3000:158::5, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 49806, Seq: 1, Ack: 1577, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    187 47.469214750   2603:1026:3000:158::5 2a07:b944::2:2        TLSv1.3  171    Hello Retry Request, Change Cipher Spec
+
+Frame 187: 171 bytes on wire (1368 bits), 171 bytes captured (1368 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:3000:158::5, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 49806, Seq: 1, Ack: 1577, Len: 99
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    188 47.469245634   2a07:b944::2:2        2603:1026:3000:158::5 TCP      72     49806 → 443 [ACK] Seq=1577 Ack=100 Win=65280 Len=0 TSval=3075692438 TSecr=3285212811
+
+Frame 188: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:3000:158::5
+Transmission Control Protocol, Src Port: 49806, Dst Port: 443, Seq: 1577, Ack: 100, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 47.469594854   2a07:b944::2:2        2603:1026:3000:158::5 TLSv1.3  595    Change Cipher Spec, Client Hello (SNI=login.microsoftonline.com)
+
+Frame 189: 595 bytes on wire (4760 bits), 595 bytes captured (4760 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:3000:158::5
+Transmission Control Protocol, Src Port: 49806, Dst Port: 443, Seq: 1577, Ack: 100, Len: 523
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    190 47.776193384   2603:1026:3000:158::5 2a07:b944::2:2        TLSv1.3  1420   Server Hello
+
+Frame 190: 1420 bytes on wire (11360 bits), 1420 bytes captured (11360 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:3000:158::5, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 49806, Seq: 100, Ack: 2100, Len: 1348
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    191 47.776217447   2603:1026:3000:158::5 2a07:b944::2:2        TCP      1420   443 → 49806 [PSH, ACK] Seq=1448 Ack=2100 Win=69888 Len=1348 TSval=3285213022 TSecr=3075692438 [TCP PDU reassembled in 192]
+
+Frame 191: 1420 bytes on wire (11360 bits), 1420 bytes captured (11360 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:3000:158::5, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 49806, Seq: 1448, Ack: 2100, Len: 1348
+
+No.     Time           Source                Destination           Protocol Length Info
+    192 47.776223832   2603:1026:3000:158::5 2a07:b944::2:2        TLSv1.3  1213   Application Data
+
+Frame 192: 1213 bytes on wire (9704 bits), 1213 bytes captured (9704 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1026:3000:158::5, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 49806, Seq: 2796, Ack: 2100, Len: 1141
+[3 Reassembled TCP Segments (3645 bytes): #190(1156), #191(1348), #192(1141)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    193 47.776228701   2603:1020:206:d::1    2a07:b944::2:2        TLSv1.2  424    Application Data
+
+Frame 193: 424 bytes on wire (3392 bits), 424 bytes captured (3392 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2603:1020:206:d::1, Dst: 2a07:b944::2:2
+Transmission Control Protocol, Src Port: 443, Dst Port: 48640, Seq: 6388, Ack: 2803, Len: 352
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    194 47.776272030   2a07:b944::2:2        2603:1026:3000:158::5 TCP      72     49806 → 443 [ACK] Seq=2100 Ack=3937 Win=61568 Len=0 TSval=3075692745 TSecr=3285213022
+
+Frame 194: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:3000:158::5
+Transmission Control Protocol, Src Port: 49806, Dst Port: 443, Seq: 2100, Ack: 3937, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    195 47.776765255   2a07:b944::2:2        2603:1020:206:d::1    TLSv1.2  294    Application Data
+
+Frame 195: 294 bytes on wire (2352 bits), 294 bytes captured (2352 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1020:206:d::1
+Transmission Control Protocol, Src Port: 48640, Dst Port: 443, Seq: 2803, Ack: 6740, Len: 222
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    196 47.777537258   2a07:b944::2:2        2603:1026:3000:158::5 TLSv1.3  146    Application Data
+
+Frame 196: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:3000:158::5
+Transmission Control Protocol, Src Port: 49806, Dst Port: 443, Seq: 2100, Ack: 3937, Len: 74
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    197 47.777612388   2a07:b944::2:2        2603:1026:3000:158::5 TLSv1.3  233    Application Data
+
+Frame 197: 233 bytes on wire (1864 bits), 233 bytes captured (1864 bits) on interface proton0, id 0
+Raw packet data
+Internet Protocol Version 6, Src: 2a07:b944::2:2, Dst: 2603:1026:3000:158::5
+Transmission Control Protocol, Src Port: 49806, Dst Port: 443, Seq: 2174, Ack: 3937, Len: 161
+Transport Layer Security
